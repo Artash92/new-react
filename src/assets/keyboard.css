@@ -1,0 +1,111 @@
+ 
+  
+  .keyboard .output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 90%;
+    height: 80px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  
+  .keyboard .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  .keyboard .language-buttons {
+    display: flex;
+  }
+  
+  .keyboard .language-button {
+    font-size: 18px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .keyboard .language-button:hover {
+    background-color: #eee;
+  }
+  
+  .keyboard .en {
+    background-color: #4c9baf;
+    color: #fff;
+  }
+  
+  .keyboard .am {
+    background-color: #4c9baf;
+    color: #fff;
+  }
+  
+  .keyboard .ru {
+    background-color: #4c9baf;
+    color: #fff;
+  }
+  
+  
+  .keyboard .shift-button:hover {
+    background-color: #eee;
+  }
+  
+   
+  
+   
+  .keyboard button:not(.probel-button):not(.shift-enabled):not(.en):not(.am):not(.ru) {
+    font-size: 10px;
+  }
+  
+   
+  .keyboard .buttons {
+    display: flex;
+   
+  }
+  
+  button {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 5px;
+    padding: 10px 15px;
+  }
+  
+  button.shift-enabled {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .probel-button{
+    width: 120px;
+  }
+  
+  
+  @media screen and (max-width: 100px) {
+    .keyboard button {
+      width: 25px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 100px) {
+    .keyboard button.am {
+      display: none;
+    }
+  }

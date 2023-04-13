@@ -1,0 +1,118 @@
+button {
+    background-color: #0f1011;
+    border: none;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #40aeee;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+  }
+  
+
+ /* Weather.css */
+
+/* Основной контейнер */
+.container0 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 100px;
+  
+}
+
+/* Контейнер, содержащий основной контент */
+.container9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Левая часть контейнера */
+.left1 {
+  text-align: center;
+}
+
+.temp {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.text1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Правая часть контейнера */
+.right1 {
+  text-align: right;
+  font-size: 18px;
+}
+
+.input-container1 {
+  margin-top: 20px;
+}
+
+.input1 {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+/* Добавим стили для мобильных устройств */
+@media (max-width: 600px) {
+
+  .container9 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .right1 {
+    text-align: left;
+  }
+
+  .input-container1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .input1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+}
+
+.code {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color:#0f1011;
+}
+
+
+.code1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #555;
+  font-size: 60px;
+  
+}
